@@ -29,7 +29,7 @@
 ## Success Response
 
 * **Code**: 200
-* **Content**:
+  **Content**:
   ```
   {
     'camera': [
