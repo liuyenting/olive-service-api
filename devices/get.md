@@ -28,22 +28,20 @@
 
 ## Success Response
 
-### Code 
-`200`
-
-### Content
-```
-{
-  'camera': [
-    {
-      'vendor': 'Hamamatsu',
-      'model': 'C14120-20P',
-      'version': '',
-      'serial_number': '000006',
-    },
-  ],
-}
-```
+* **Code**: 200
+* **Content**:
+  ```
+  {
+    'camera': [
+      {
+        'vendor': 'Hamamatsu',
+        'model': 'C14120-20P',
+        'version': '',
+        'serial_number': '000006',
+      },
+    ],
+  }
+  ```
  
 ## Error Response
 
