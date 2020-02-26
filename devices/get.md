@@ -1,35 +1,35 @@
-**List detected devices**
-----
+# List detected devices
+
   <_Additional information about your API call. Try to use verbs that match both request type (fetching vs modifying) and plurality (one vs multiple)._>
 
-* **URL**
+## URL
 
   `/api/devices`
 
-* **Method:**
+## Method
   
   `GET`
   
-*  **URL Params**
+## URL Parameters*
 
    <_If URL params exist, specify them in accordance with name mentioned in URL section. Separate into optional and required. Document data constraints._> 
 
-   **Required:**
+### Required
  
    `id=[integer]`
 
-   **Optional:**
+### Optional
  
    `photo_id=[alphanumeric]`
 
-* **Data Params**
+## Data Parameters
 
   <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
 
-* **Success Response:**
+## Success Response
 
-  * **Code:** 200 <br />
-    **Content:** 
+* **Code**: 200 <br />
+* **Content:** 
     ```
     {
       'camera': [
@@ -43,7 +43,7 @@
     }
     ```
  
-* **Error Response:**
+## Error Response
 
   <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
 
