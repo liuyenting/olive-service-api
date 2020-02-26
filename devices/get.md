@@ -32,7 +32,7 @@
     **Content:** 
     ```
     {
-      '': [
+      'camera': [
         {
           'vendor': 'Hamamatsu',
           'model': 'C14120-20P',
